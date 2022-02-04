@@ -33,27 +33,19 @@
 </template>
 
 <script>
+import Fund from '../services/getFundsByRange'
 export default {
     data() {
         return {
-            funds: [
-               {
-                    "mstar_id": "F00000OV8W",
-                    "thailand_fund_code": "SCBOIL",
-                    "nav_return": 65.9877,
-                    "nav": 4.9122,
-                    "nav_date": "2021-09-06T00:00:00.000Z",
-                    "avg_return": 65.394614
-                    } 
-            ]
+            funds: []
         }
     },
     methods: {
         async selectPeriod (e) {
             const period = e.target.value
-            console.log(period)
+            this.funds = await Fund.getFundsByRange(period)
         }
-    }
+    },
 
 }
 </script>

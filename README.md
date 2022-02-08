@@ -1,4 +1,4 @@
-# finomena-test
+# FINNOMENA-Engineer-Recruitment-Test
 
 ## Project setup
 ```
@@ -8,21 +8,7 @@ npm install
 ```
 npm start
 ```
-
-### Compiles and hot-reloads for development
+## Run test (cypress)
 ```
-npm run serve
+npm run test
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

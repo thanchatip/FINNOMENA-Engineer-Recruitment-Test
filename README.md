@@ -4,6 +4,10 @@
 ```
 npm install
 ```
+## Run Project (include run test)
+```
+npm start
+```
 
 ### Compiles and hot-reloads for development
 ```
